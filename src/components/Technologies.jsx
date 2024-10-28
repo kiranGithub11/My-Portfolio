@@ -2,7 +2,8 @@ import { RiReactjsLine } from "react-icons/ri";
 import { RiJavaFill } from "react-icons/ri";
 import { SiSpringboot } from "react-icons/si";
 import { SiMysql } from "react-icons/si";
-import { SiHibernate } from "react-icons/si";
+// import { SiHibernate } from "react-icons/si";
+import { RiTailwindCssLine } from "react-icons/ri";
 import { RiJavascriptFill } from "react-icons/ri";
 import { motion } from "framer-motion";
 
@@ -74,7 +75,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <SiHibernate className="text-7xl text-gray-600" />
+          <RiTailwindCssLine className="text-7xl text-teal-400" />
         </motion.div>
         <motion.div
           variants={iconVariants(2.5)}

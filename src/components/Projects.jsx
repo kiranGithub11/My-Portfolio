@@ -1,5 +1,8 @@
 import { PROJECTS } from "../constants";
 import { motion } from "framer-motion";
+import { useState } from "react";
+import { FaExternalLinkAlt } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Projects = () => {
   return (
@@ -35,7 +38,10 @@ const Projects = () => {
               transition={{ duration: 1 }}
               className="w-full max-w-xl lg:w-3/4"
             >
-              <h6 className="mb-2 font-semibold ">{project.title}</h6>
+              <h6 className="mb-2 font-semibold ">
+                {project.title}
+                <FaExternalLinkAlt className="inline ml-3 mb-1 cursor-pointer"/>
+              </h6>
               <p className="mb-4 text-neutral-400">{project.description}</p>
               {project.technologies.map((tech, index) => (
                 <span

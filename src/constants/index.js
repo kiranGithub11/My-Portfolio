@@ -3,9 +3,11 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. As a fresher with an MCA degree, I have dedicated my learning journey to mastering full stack Java development. My expertise spans front-end technologies like JavaScript and React.js, as well as back-end technologies including Spring, Hibernate, and MySQL. I am also proficient in Java. My love for coding drives me to continuously improve my skills and stay updated with the latest industry trends. I am eager to leverage my knowledge and certification in full stack Java development to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I'm a full stack developer who loves crafting beautiful, responsive websites using React and Tailwind CSS. With hands-on experience in dynamic, component-based applications, I leverage React’s hooks and state management to create intuitive user interfaces. Alongside my front-end expertise, I have a solid understanding of back-end technologies, including Spring Boot, ensuring seamless integration and functionality. I’m dedicated to writing clean, maintainable code and excited to collaborate with a team to build impactful web applications that deliver outstanding user experiences.`;
 
-export const ABOUT_TEXT = `With a solid foundation in computer science and a passion for coding, I have honed my skills as a full stack developer. Born in Koduru, Krishna district, I completed my 10th class and intermediate education before moving to Vijayawada for my bachelor's degree in Computer Science from PB Siddhartha College of Arts and Science. My master's degree at Acharya Nagarjuna University sparked my interest in development and coding, leading me to complete a full stack course to enhance my skills. As a fresher with expertise in full stack Java development, I work with technologies such as Java, Spring, Hibernate, MySQL, JavaScript, and React.js. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I stay active, explore new technologies, and contribute to open-source projects.`;
+export const ABOUT_TEXT = `Coding is my superpower, and coffee is my sidekick! When I'm not diving deep into a book, watching a thrilling football match, or perfecting my chess game, you’ll find me building responsive and beautiful web applications. I thrive on clean code, functional design, and bringing ideas to life on the screen.
+
+Armed with skills in Java, Spring Boot, REST APIs, MySQL, MongoDB, JavaScript, React, and Tailwind CSS, I blend creativity with technical finesse to craft intuitive, engaging solutions. My love for problem-solving and strong foundation in computer science fuel my drive to create impactful digital experiences.`;
 
 export const EXPERIENCES = [
   {
@@ -70,7 +72,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "SR Nagar, Hyderabad, 500038",
+  address: "Kazaguda, Hyderabad, 500032",
   phoneNo: "+91 7901263121",
   email: "kirannargam@gmail.com",
 };

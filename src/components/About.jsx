@@ -1,4 +1,4 @@
-import aboutImg from "../assets/myimg2.jpg";
+import aboutImg from "../assets/kiranAbout.jpg";
 import { ABOUT_TEXT } from "../constants";
 import { motion } from "framer-motion";
 
@@ -17,7 +17,7 @@ const About = () => {
           className="w-full lg:w-1/2 lg:p-8"
         >
           <div className="flex items-center justify-center">
-            <img className="rounded-2xl" src={aboutImg} alt="aboutImg" />
+            <img className="rounded-2xl max-w-[400px]" src={aboutImg} alt="aboutImg"  />
           </div>
         </motion.div>
         <motion.div
